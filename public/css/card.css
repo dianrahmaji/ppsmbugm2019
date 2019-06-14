@@ -90,12 +90,7 @@
 
 .card__info {
     z-index: 2;
-    background: #FEAC5E;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: linear-gradient(to right bottom, #e43096, #d53bac, #bf48c0, #a355d1, #7f61df, #5d7cf1, #3594fb, #00a8ff, #00ccff, #00e8d8, #44fa8d, #e1ff40);
 
     background-attachment: fixed;
     background-position: center;

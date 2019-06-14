@@ -29,6 +29,7 @@
         <!-- Main Stylesheet File -->
         <link href="public/css/template.css" rel="stylesheet">
         <link href="public/css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="public/css/card.css">
     </head>
     
     <body>
@@ -37,7 +38,6 @@
                 <div id="logo" class="pull-left">
                     <!-- <a href="#hero"><img src="img/logo.png" alt="" title="" /></img></a> -->
                      <h1><a href="#hero">Regna</a></h1>
-
                 </div>
                 <nav id="nav-menu-container">
                     <ul class="nav-menu">
@@ -48,7 +48,6 @@
 
                         </li>
                         <li class="menu-has-children"><a href="">Galeri</a>
-
                             <ul>
                                 <li><a href="#">Foto</a>
 
@@ -69,25 +68,99 @@
         <section id="hero">
             <div class="hero-container">
                  <h1>Welcome to Regna</h1>
-
-                 <h2>We are team of talanted designers making websites with Bootstrap</h2>
- <a href="#about" class="btn-get-started"><i class="fas fa-chevron-down"></i></a>
-
+                 <h2>We are team of talanted designers making websites with Bootstrap</h2> <a href="#about" class="btn-get-started"><i class="fas fa-chevron-down"></i></a>
             </div>
         </section>
         <!-- Berita -->
         <!-- Reference : https://codepen.io/veronicadev/pen/WJyOwG -->
-        <section id="info">
-            <div class="container">
-                <article class="dr-card">
-                    <div class="dr-card__info"> <span class="dr-card__category">hari ini</span>
+        <div class="container">
+            <section id="cards">
+                <article class="cardz card--1">
+                    <div class="card__info-hover">
+                        <!-- <svg class="card__like" viewBox="0 0 24 24">
 
-                         <h3 class="dr-card__title">PPSMB</h3>
+        <path fill="#000000"
 
+          d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+
+      </svg> -->
+                        <div class="card__clock-info">
+                            <!-- <svg class="card__clock" viewBox="0 0 24 24">
+
+          <path
+
+            d="M12,20A7,7 0 0,1 5,13A7,7 0 0,1 12,6A7,7 0 0,1 19,13A7,7 0 0,1 12,20M19.03,7.39L20.45,5.97C20,5.46 19.55,5 19.04,4.56L17.62,6C16.07,4.74 14.12,4 12,4A9,9 0 0,0 3,13A9,9 0 0,0 12,22C17,22 21,17.97 21,13C21,10.88 20.26,8.93 19.03,7.39M11,14H13V8H11M15,1H9V3H15V1Z" />
+
+        </svg><span class="card__time">15 min</span> -->
+                        </div>
+                    </div>
+                    <div class="card__img"></div> <a href="#" class="card_link">
+
+    <div class="card__img--hover"></div>
+
+  </a>
+                    <div class="card__info">
+                         <h3 class="card__title">PALUPI</h3> <span class="card__by">Rabu, 19 Januari 2019</a></span>
                     </div>
                 </article>
-            </div>
-        </section>
+                <article class="cardz card--1">
+                    <div class="card__info-hover">
+                        <!-- <svg class="card__like" viewBox="0 0 24 24">
+
+        <path fill="#000000"
+
+          d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+
+      </svg> -->
+                        <div class="card__clock-info">
+                            <!-- <svg class="card__clock" viewBox="0 0 24 24">
+
+          <path
+
+            d="M12,20A7,7 0 0,1 5,13A7,7 0 0,1 12,6A7,7 0 0,1 19,13A7,7 0 0,1 12,20M19.03,7.39L20.45,5.97C20,5.46 19.55,5 19.04,4.56L17.62,6C16.07,4.74 14.12,4 12,4A9,9 0 0,0 3,13A9,9 0 0,0 12,22C17,22 21,17.97 21,13C21,10.88 20.26,8.93 19.03,7.39M11,14H13V8H11M15,1H9V3H15V1Z" />
+
+        </svg><span class="card__time">15 min</span> -->
+                        </div>
+                    </div>
+                    <div class="card__img"></div> <a href="#" class="card_link">
+
+    <div class="card__img--hover"></div>
+
+  </a>
+                    <div class="card__info">
+                         <h3 class="card__title">PALUPU</h3> <span class="card__by">Rabu, 19 Januari 2019</a></span>
+                    </div>
+                </article>
+                <article class="cardz card--1">
+                    <div class="card__info-hover">
+                        <!-- <svg class="card__like" viewBox="0 0 24 24">
+
+        <path fill="#000000"
+
+          d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+
+      </svg> -->
+                        <div class="card__clock-info">
+                            <!-- <svg class="card__clock" viewBox="0 0 24 24">
+
+          <path
+
+            d="M12,20A7,7 0 0,1 5,13A7,7 0 0,1 12,6A7,7 0 0,1 19,13A7,7 0 0,1 12,20M19.03,7.39L20.45,5.97C20,5.46 19.55,5 19.04,4.56L17.62,6C16.07,4.74 14.12,4 12,4A9,9 0 0,0 3,13A9,9 0 0,0 12,22C17,22 21,17.97 21,13C21,10.88 20.26,8.93 19.03,7.39M11,14H13V8H11M15,1H9V3H15V1Z" />
+
+        </svg><span class="card__time">15 min</span> -->
+                        </div>
+                    </div>
+                    <div class="card__img"></div> <a href="#" class="card_link">
+
+    <div class="card__img--hover"></div>
+
+  </a>
+                    <div class="card__info">
+                         <h3 class="card__title">PALUPE</h3> <span class="card__by">Rabu, 19 Januari 2019</a></span>
+                    </div>
+                </article>
+            </section>
+        </div>
         <!-- About -->
         <section id="tentang">
             <div class="container">PPSMB adalah</div>
@@ -100,11 +173,9 @@
                         <div class="card" style="background-color: tomato">
                             <div class="card-body">
                                  <h5 class="card-title">Peraturan Rektor</h5>
-
                                 <p class="card-text">Nomor 5 Tahun 2018
                                     <br>Tentang PPSMB Universitas Gadjah Mada</p> <a href="#" class="btn btn-primary"
                                 style="color: white"><i class="fas fa-arrow-down"></i>Unduh</a>
-
                             </div>
                         </div>
                     </div>
@@ -112,11 +183,9 @@
                         <div class="card" style="background-color: dodgerblue">
                             <div class="card-body">
                                  <h5 class="card-title">Surat Keputusan Rektor</h5>
-
                                 <p class="card-text">Nomor 559/UNI.P/SK/HUKOR/2018
                                     <br>Tentang PPSMB Universitas Gadjah Mada 2018</p> <a href="#" class="btn btn-primary"
                                 style="color: white"><i class="fas fa-arrow-down"></i>Unduh</a>
-
                             </div>
                         </div>
                     </div>
@@ -152,10 +221,8 @@
                         <div class="card" style="background-color: aquamarine">
                             <div class="card-body">
                                  <h5 class="card-title">Agenda</h5>
-
                                 <div style="color: white"><i class="far fa-calendar-alt fa-3x"></i>
                                 </div> <a href="#" class="btn btn-primary">Lihat Disini</a>
-
                             </div>
                         </div>
                     </div>
@@ -163,10 +230,8 @@
                         <div class="card" style="background-color: mediumslateblue">
                             <div class="card-body">
                                  <h5 class="card-title">Materi, Atribut, dan Penugasan</h5>
-
                                 <div style="color: white"><i class="far fa-edit fa-3x"></i>
                                 </div> <a href="#" class="btn btn-primary">Lihat Disini</a>
-
                             </div>
                         </div>
                     </div>
@@ -177,61 +242,64 @@
             <div class="container">
                 <div class="row">
                     <div style="margin-top: 20px" class="col-sm-4">
-                         <h5><b>Sekretariat PPSMB UGM:</b></h5>
-Panitia Pusat PPSMB UGM 2019
+                         <h5><b>Sekretariat PPSMB UGM:</b></h5>Panitia Pusat PPSMB UGM 2019
                         <br>Subdit. Pengembangan Karakter Mahasiswa
                         <br>Direktorat Kemahasiswaan
                         <br>Universitas Gadjah Mada
                         <br> <a href="https://goo.gl/maps/db4RaashyoN2" target="_blank">
-          Jl. Asem Kranji Blok K-8 Sekip, Bulaksumur, Sleman, Yogyakarta 55281 (PKM Center)
-        </a>
 
+          Jl. Asem Kranji Blok K-8 Sekip, Bulaksumur, Sleman, Yogyakarta 55281 (PKM Center)
+
+        </a>
                         <br>Jam kerja pukul 08.00 - 16.00 WIB
                         <div> <i class="far fa-envelope"></i> ppsmbugm@ugm.ac.id</div>
                     </div>
                     <div style="margin-top: 20px" class="col-sm-5">
-                         <h5><b>Korespondensi/Alamat:</b></h5>
-Kasubdit. Pengembangan Karakter Mahasiswa,
+                         <h5><b>Korespondensi/Alamat:</b></h5>Kasubdit. Pengembangan Karakter Mahasiswa,
                         <br>Direktorat Kemahasiswaan Universitas Gadjah Mada
                         <br>q.q. Ketua Pelaksana PPSMB UGM 2019
                         <br>Jl. Asem Kranji Blok K-8 Sekip, Bulaksumur, Sleman, Yogyakarta. 55281
                         <br>
                         <br>
-                         <h5><b>Pusat Informasi:</b></h5>
-HELP DESK PPSMB : +62-822-8433-1119 (08.00 - 16.00 WIB)</div>
+                         <h5><b>Pusat Informasi:</b></h5>HELP DESK PPSMB : +62-822-8433-1119 (08.00 - 16.00 WIB)</div>
                     <div style="margin-top: 20px"
                     class="col-sm-3">
                          <h5><b>Akun Resmi PPSMB:</b></h5>
-
                         <div class="col-md-12"> <a href="https://facebook.com/PPSMB-Palapa-UGM-325374494259950/" target="_blank">
-              <i class="fab fa-facebook-square"></i>  PPSMB UGM
-            </a>
 
+              <i class="fab fa-facebook-square"></i>  PPSMB UGM
+
+            </a>
                         </div>
                         <div class="col-sm-12"> <a href="https://www.youtube.com/user/ppsmbpalapa" target="_blank">
-              <i class="fab fa-youtube"></i> PPSMB UGM
-            </a>
 
+              <i class="fab fa-youtube"></i> PPSMB UGM
+
+            </a>
                         </div>
                         <div class="col-sm-12"> <a href="https://twitter.com/ppsmb_ugm" target="_blank">
-              <i class="fab fa-twitter-square"></i>  @ppsmb_ugm
-            </a>
 
+              <i class="fab fa-twitter-square"></i>  @ppsmb_ugm
+
+            </a>
                         </div>
                         <div class="col-sm-12"> <a href="https://www.instagram.com/ppsmb_ugm/" target="_blank">
-              <i class="fab fa-instagram"></i>  @ppsmb_ugm
-            </a>
 
+              <i class="fab fa-instagram"></i>  @ppsmb_ugm
+
+            </a>
                         </div>
                         <div class="col-sm-12"> <a href="https://ask.fm/ppsmb_ugm" target="_blank">
-              <i class="fab fa-lastfm-square"></i>  @ppsmb_ugm
-            </a>
 
+              <i class="fab fa-lastfm-square"></i>  @ppsmb_ugm
+
+            </a>
                         </div>
                         <div class="col-sm-12"> <a href="http://line.me/ti/p/~@ppsmb_ugm" target="_blank">
-              <i class="fab fa-line"></i>  @ppsmb_ugm
-            </a>
 
+              <i class="fab fa-line"></i>  @ppsmb_ugm
+
+            </a>
                         </div>
                     </div>
                 </div>

@@ -15,11 +15,9 @@
   <!-- Berita -->
   <!-- Reference : https://codepen.io/veronicadev/pen/WJyOwG -->
   <div class="container">
-    <section id="cards">
+    <section id="slider">
       <!-- <div class="slider"> -->
-        <partial src="card_berita.html" judul="PALUPI" tanggal="Rabu, 19 Januari 2019"></partial>
-        <partial src="card_berita.html" judul="PALUPU" tanggal="Rabu, 19 Januari 2019"></partial>
-        <partial src="card_berita.html" judul="PALUPE" tanggal="Rabu, 19 Januari 2019"></partial>
+
       <!-- </div> -->
     </section>
   </div>
@@ -32,24 +30,17 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <div class="card" style="background-color: tomato">
-            <div class="card-body">
-              <h5 class="card-title">Peraturan Rektor</h5>
-              <p class="card-text">Nomor 5 Tahun 2018 <br> Tentang PPSMB Universitas Gadjah Mada</p>
-              <a href="./peraturan_rektor.html" class="btn btn-primary" style="color: white">Buka</a>
-            </div>
-          </div>
+          <a href="./peraturan_rektor.html">
+            <partial src="card.html" title="Peraturan Rektor" nomor="No 5 Tahun 2018" isi="Tentang PPSMB Universitas Gadjah Mada"></partial>
+          </a>
         </div>
         <div class="col-sm-6">
-          <div class="card" style="background-color: dodgerblue">
-            <div class="card-body">
-              <h5 class="card-title">Surat Keputusan Rektor</h5>
-              <p class="card-text">Nomor 559/UNI.P/SK/HUKOR/2018 <br> Tentang PPSMB Universitas Gadjah Mada 2018</p>
-              <a href="./sk_rektor.html" class="btn btn-primary" style="color: white">Buka</a>
-            </div>
-          </div>
+          <a href="./sk_rektor.html">
+            <partial src="card.html" title="Surat Keputusan Rektor" nomor="Nomor 559/UNI.P/SK/HUKOR/2018" isi="Tentang PPSMB Universitas Gadjah Mada 2018"></partial>
+          </a>
         </div>
       </div>
+    </div>
     </div>
   </section>
   <!-- Videos -->
@@ -82,38 +73,42 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <div class="card" style="background-color: aquamarine">
-            <div class="card-body">
-              <h5 class="card-title">Agenda</h5>
-              <div style="color: white"><i class="far fa-calendar-alt fa-3x"></i></div>
-              <a href="./pilih_hari.html" class="btn btn-primary">Lihat Disini</a>
+            <a href="./pilih_hari.html">
+            <div class="cardz card--1">
+                <!-- <agenda> -->
+                  <div class="card__info">
+                    <h3 style="text-align: center" class="card__title">Agenda</h3>
+                    <i style="color: white" class="fas fa-calendar-week fa-3x"></i>
+                  </div>
+                <!-- </agenda> -->
             </div>
-          </div>
+            </a>
         </div>
         <div class="col-sm-6">
-          <div class="card" style="background-color: mediumslateblue">
-            <div class="card-body">
-              <h5 class="card-title">Materi, Atribut, dan Penugasan</h5>
-              <div style="color: white"><i class="far fa-edit fa-3x"></i></div>
-              <a href="#" class="btn btn-primary">Lihat Disini</a>
+          <a href="./pilih_hari.html">
+            <div class="cardz card--1">
+                <!-- <materi> -->
+                  <div class="card__info">
+                    <h3 style="text-align: center" class="card__title">Materi, Atribut, dan Penugasan</h3>
+                    <i style="color: white" class="fas fa-calendar-week fa-3x"></i>
+                  </div>
+                <!-- </materi> -->
             </div>
-          </div>
-        </div>
+          </a>
       </div>
     </div>
   </section>
   <partial src="footer.html"></partial>
   <partial src="library.html"></partial>
   <script type="text/javascript">
-    $(document).ready(function() {
+    $(document).ready(function () {
       $('.slider').slick({
         dots: true,
         infinite: false,
         speed: 300,
         slidesToShow: 4,
         slidesToScroll: 4,
-        responsive: [
-          {
+        responsive: [{
             breakpoint: 1024,
             settings: {
               slidesToShow: 3,

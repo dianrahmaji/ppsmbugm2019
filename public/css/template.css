@@ -795,13 +795,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-left: 8px;
 }
 
-#portfolio .portfolio-item:hover .details {
+/* #portfolio .portfolio-item:hover .details {
   bottom: 0;
 }
 
 #portfolio .portfolio-item:hover img {
   top: -30px;
-}
+} */
 
 /* Team Section
 --------------------------------*/

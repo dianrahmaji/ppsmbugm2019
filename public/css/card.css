@@ -25,7 +25,7 @@
     background-size: 200% 100%;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
-    padding: 16px 24px 24px 24px;
+    padding: 24px 24px 24px 24px;
 }
 
 .cardz {
@@ -55,7 +55,7 @@
     background-size: cover;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
-    padding: 16px 24px 24px 24px;
+    padding: 16px 24px 60px 24px;
 }
 
 .card__category {
@@ -101,4 +101,25 @@
 
 .cardz:hover .card__info-hover {
     opacity: 1;
+}
+
+.btn-get-started {
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: block;
+    padding: 8px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    float: right;
+    margin: 0;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.btn-get-started:hover {
+    background: #2dc997;
+    border: 2px solid #2dc997;
 }

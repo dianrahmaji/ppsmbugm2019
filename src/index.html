@@ -13,18 +13,18 @@
   </section>
   <!-- Berita -->
   <!-- Reference : https://codepen.io/veronicadev/pen/WJyOwG -->
-  <div class="container fluid">
+  <div class="container">
     <section id="slider">
       <!-- <div class="slider"> -->
-        <h1 class="text-center text-uppercase"><b>Informasi dan Berita</b></h1>
+        <h1 class="text-center text-uppercase" style="padding-bottom: 42px"><b>Informasi dan Berita</b></h1>
         <partial src="slider.html"></partial>
       <!-- </div> -->
     </section>
   </div>
   <!-- About -->
-  <section id="tentang">
+  <section id="tentang" style="background: #a7a9bf24; padding: 42px">
     <div class="container">
-      <h1 class="text-center text-uppercase"><b>Pengertian PPSMB</b></h1>
+      <h1 class="text-center text-uppercase" style="padding-bottom: 64px"><b>Pengertian PPSMB</b></h1>
       <p class="margin: 0px 0px 0px 0px">Pelatihan Pembelajar Sukses bagi Mahasiswa Baru yang selanjutnya disingkat PPSMB adalah kegiatan resmi orientasi dan pengenalan kampus bagi mahasiswa baru di lingkungan UGM. </p>
       <p class="margin: 0px 0px 0px 0px">Kegiatan PPSMB UGM secara umum memiliki 2 tujuan, yaitu:
       <ol>
@@ -37,14 +37,15 @@
   <!-- Rektor -->
   <section id="rektor">
     <div class="container">
+      <h1 class="text-center text-uppercase" style="padding-bottom: 56px"><b>Peraturan dan SK Rektor</b></h1>
       <div class="row">
-        <div class="col-sm-6">
-          <a href="./peraturan_rektor.html">
+        <div class="col-md-6">
+          <a href="./peraturan_rektor.html" style="margin: 25px">
             <partial src="card.html" title="Peraturan Rektor" nomor="No 5 Tahun 2018" isi="Tentang PPSMB Universitas Gadjah Mada"></partial>
           </a>
         </div>
-        <div class="col-sm-6">
-          <a href="./sk_rektor.html">
+        <div class="col-md-6">
+          <a href="./sk_rektor.html" style="margin: 25px">
             <partial src="card.html" title="Surat Keputusan Rektor" nomor="Nomor 559/UNI.P/SK/HUKOR/2018" isi="Tentang PPSMB Universitas Gadjah Mada 2018"></partial>
           </a>
         </div>
@@ -53,53 +54,30 @@
     </div>
   </section>
   <!-- Videos -->
-  <section id="videos">
-    
-    <!-- <div class="container">
+  <section id="video">
+    <div class="video-container">
       <div class="row">
         <div class="col-md-6">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/S0kaqFBoGqI"
-              allowfullscreen></iframe>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/S0kaqFBoGqI"
-              allowfullscreen></iframe>
-          </div>
-        </div>
-        <div class="col-md-12 text-center">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/S0kaqFBoGqI"
-              allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="card" style="width: 18rem; margin: auto">
-            <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card" style="max-width: 18rem; margin: auto; margin-top: 24px; margin-bottom: 24px; background: black">
+            <img class="card-img-top" src="public/img/ppsmb.png" alt="Card image cap">
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h2 class="text-uppercase" style="color: white">HIMNE GADJAH MADA</h2>
             </div>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="card" style="width: 18rem; margin: auto">
-            <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card" style="max-width: 18rem; margin: auto; margin-top: 24px; margin-bottom: 24px; background: black">
+            <img class="card-img-top" src="public/img/ppsmb.png" alt="Card image cap">
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h2 class="text-uppercase" style="color: white">PROFIL UGM</h2>
             </div>
           </div>
         </div>
         <div class="col-md-12">
-          <div class="card" style="width: 18rem; margin: auto">
-            <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card" style="max-width: 18rem; margin: auto; margin-top: 24px; margin-bottom: 24px; background: black">
+            <img class="card-img-top" src="public/img/ppsmb.png" alt="Card image cap">
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h2 class="text-uppercase" style="color: white">Sambutan Rektor</h2>
             </div>
           </div>
         </div>
@@ -109,10 +87,11 @@
   <!-- Agenda Materi Atribut Penugasan -->
   <section id="tasks">
     <div class="container">
+      <h1 class="text-center text-uppercase" style="padding-bottom: 56px"><b>Agenda, Materi, Atribut, dan Penugasan</b></h1>
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-md-6">
             <a href="./pilih_hari.html">
-            <div class="cardz card--1">
+            <div class="cardz card--1" style="margin: 25px">
                 <!-- <agenda> -->
                   <div class="card_task">
                     <h3 style="text-align: center" class="card__title">Agenda</h3>
@@ -123,13 +102,13 @@
             </div>
             </a>
         </div>
-        <div class="col-sm-6">
+        <div class="col-md-6">
           <a href="./pilih_hari.html">
-            <div class="cardz card--1">
+            <div class="cardz card--1" style="margin: 25px">
                 <!-- <materi> -->
                   <div class="card_task">
                     <h3 style="text-align: center" class="card__title">Materi, Atribut, dan Penugasan</h3>
-                    <i style="color: white" class="fas fa-calendar-week fa-3x"></i>
+                    <i style="color: white" class="fas fa-tasks fa-3x"></i>
                   </div>
                 <!-- </materi> -->
             </div>

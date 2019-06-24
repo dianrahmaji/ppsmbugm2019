@@ -18,7 +18,8 @@
 
 .slider_info {
     z-index: 2;
-    background-image: linear-gradient(to right top, #af43b5, #f63d8e, #ff645c, #ff9e29, #e8d616);
+    /* background-image: linear-gradient(to right top, #af43b5, #f63d8e, #ff645c, #ff9e29, #e8d616); */
+    background-image: linear-gradient(to right top, #11998e, #38ef7d);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

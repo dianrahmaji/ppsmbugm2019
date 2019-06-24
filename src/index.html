@@ -7,7 +7,7 @@
   <!-- First Look -->
   <section id="hero">
     <div class="hero-container">
-      <img class="img-palapa" src="public/img/palapa.png" alt="">
+      <img class="img-palapa" src="public/img/palapa.png" class="img-fluid" style="max-width: 400px; height: auto;" alt="">
       <!-- <i class="fas fa-chevron-down"></i></a> -->
     </div>
   </section>
@@ -38,30 +38,35 @@
   <section id="rektor">
     <div class="container">
       <h1 class="text-center text-uppercase" style="padding-bottom: 56px"><b>Peraturan dan SK Rektor</b></h1>
-      <div class="row">
-        <div class="col-md-6">
-          <a href="./peraturan_rektor.html" style="margin: 25px">
-            <partial src="card.html" title="Peraturan Rektor" nomor="No 5 Tahun 2018" isi="Tentang PPSMB Universitas Gadjah Mada"></partial>
-          </a>
-        </div>
-        <div class="col-md-6">
-          <a href="./sk_rektor.html" style="margin: 25px">
-            <partial src="card.html" title="Surat Keputusan Rektor" nomor="Nomor 559/UNI.P/SK/HUKOR/2018" isi="Tentang PPSMB Universitas Gadjah Mada 2018"></partial>
-          </a>
+        <div class="card-deck">
+          <!-- <div class="row"> -->
+            <div class="col-lg-6">
+              <a href="./peraturan_rektor.html" style="margin: 25px">
+                <partial src="card.html" title="Peraturan Rektor" nomor="No 5 Tahun 2018" isi="Tentang PPSMB Universitas Gadjah Mada"></partial>
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a href="./sk_rektor.html" style="margin: 25px">
+                <partial src="card.html" title="Surat Keputusan Rektor" nomor="Nomor 559/UNI.P/SK/HUKOR/2018" isi="Tentang PPSMB Universitas Gadjah Mada 2018"></partial>
+              </a>
+            </div>
+          <!-- </div> -->
         </div>
       </div>
     </div>
     </div>
   </section>
   <!-- Videos -->
-  <section id="video">
+  <section id="video" style="height: 100vh">
     <div class="video-container">
-      <div class="row">
+      <div class="card-group">
         <div class="col-md-6">
           <div class="card" style="max-width: 18rem; margin: auto; margin-top: 24px; margin-bottom: 24px; background: black">
             <img class="card-img-top" src="public/img/ppsmb.png" alt="Card image cap">
             <div class="card-body">
-              <h2 class="text-uppercase" style="color: white">HIMNE GADJAH MADA</h2>
+              <h5 class="card-title">Card title</h5>
+              <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
             </div>
           </div>
         </div>
@@ -69,7 +74,9 @@
           <div class="card" style="max-width: 18rem; margin: auto; margin-top: 24px; margin-bottom: 24px; background: black">
             <img class="card-img-top" src="public/img/ppsmb.png" alt="Card image cap">
             <div class="card-body">
-              <h2 class="text-uppercase" style="color: white">PROFIL UGM</h2>
+              <h5 class="card-title">Card title</h5>
+              <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
             </div>
           </div>
         </div>
@@ -77,26 +84,30 @@
           <div class="card" style="max-width: 18rem; margin: auto; margin-top: 24px; margin-bottom: 24px; background: black">
             <img class="card-img-top" src="public/img/ppsmb.png" alt="Card image cap">
             <div class="card-body">
-              <h2 class="text-uppercase" style="color: white">Sambutan Rektor</h2>
+              <h5 class="card-title">Card title</h5>
+              <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+  
   <!-- Agenda Materi Atribut Penugasan -->
   <section id="tasks">
     <div class="container">
       <h1 class="text-center text-uppercase" style="padding-bottom: 56px"><b>Agenda, Materi, Atribut, dan Penugasan</b></h1>
-      <div class="row">
+      <div class="card-group">
         <div class="col-md-6">
             <a href="./pilih_hari.html">
-            <div class="cardz card--1" style="margin: 25px">
+            <div class="card cardz card--1" style="margin: 25px">
                 <!-- <agenda> -->
-                  <div class="card_task">
-                    <h3 style="text-align: center" class="card__title">Agenda</h3>
-                    <br>
-                    <i style="color: white" class="fas fa-calendar-week fa-3x"></i>
+                  <div class="card_task text-center">
+                    <i style="color: white; padding-bottom: 16px" class="fas fa-calendar-week fa-3x"></i>
+                    <h3 style="text-align: center; padding-bottom: 35px" class="card__title">Agenda</h3>
+                    <!-- <br style="padding-bottom: 10px"> -->
+                    
                   </div>
                 <!-- </agenda> -->
             </div>
@@ -104,11 +115,12 @@
         </div>
         <div class="col-md-6">
           <a href="./pilih_hari.html">
-            <div class="cardz card--1" style="margin: 25px">
+            <div class="card cardz card--1" style="margin: 25px">
                 <!-- <materi> -->
-                  <div class="card_task">
+                  <div class="card_task text-center">
+                    <i style="color: white; padding-bottom: 16px" class="fas fa-tasks fa-3x"></i>
                     <h3 style="text-align: center" class="card__title">Materi, Atribut, dan Penugasan</h3>
-                    <i style="color: white" class="fas fa-tasks fa-3x"></i>
+                    
                   </div>
                 <!-- </materi> -->
             </div>

@@ -1,6 +1,28 @@
-.img-palapa{
-  max-width: 450px;
+.blacked{
+  width: 100%;
   height: auto;
+  padding: 60px 0;
+  background: url("../img/hero-bg.jpg") top center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.img-tentang{
+  max-width: 100%; 
+  height: auto; 
+  padding: 64px; 
+  padding-right: 0
+}
+
+@media (max-width: 768px) {
+  .img-tentang{
+    padding: 32px;
+  }
+}
+
+.white{
+  color: white;
 }
 
 #slider{
@@ -11,7 +33,7 @@
   padding: 60px 0;
 }
 
-#videos{
+#video{
   padding: 60px 0;
 }
 

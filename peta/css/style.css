@@ -15,6 +15,20 @@ body {
   padding-bottom: 50px;
 }
 
+.img-responsive{
+  width: 100%;
+}
+
+.img-icon{
+  display: block;
+  max-width: 50px;
+  margin: 0 auto;
+}
+
+.berjejer{
+  display: inline-block;
+}
+
 .title {
   color: floralwhite;
   font-size: 40px;
@@ -37,7 +51,7 @@ body {
   cursor: pointer;
 }
 
-#sepeda-kampus img {
+/* #sepeda-kampus img {
   width: 10%;
 }
 
@@ -51,7 +65,7 @@ body {
 
 #sekre img {
   width: 10%;
-}
+} */
 
 #tes {
   margin-right: auto;

@@ -11,8 +11,7 @@
 .img-tentang{
   max-width: 100%; 
   height: auto; 
-  padding: 64px; 
-  padding-right: 0
+  padding: 64px;
 }
 
 @media (max-width: 768px) {

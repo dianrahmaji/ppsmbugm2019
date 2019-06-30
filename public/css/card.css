@@ -32,7 +32,7 @@
 .card__info {
     z-index: 2;
     /* background-image: linear-gradient(to right bottom, #e43096, #d53bac, #bf48c0, #a355d1, #7f61df, #5d7cf1, #3594fb, #00a8ff, #00ccff, #00e8d8, #44fa8d, #e1ff40); */
-    background-image: linear-gradient(to right top,#11998e, #38ef7d) ;
+    background-image: linear-gradient(to right top,#11998e, #38ef7d);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

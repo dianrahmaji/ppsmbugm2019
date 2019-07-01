@@ -24,6 +24,62 @@
   color: white;
 }
 
+.h1-error{
+  font-size: 70px;
+}
+
+.h2-error{
+  font-size: 60px;
+}
+
+.error{
+  font-size: 32px;
+}
+
+.btn-error-color{
+  background: linear-gradient(to right top,#11998e, #38ef7d);
+  border: 2px solid #262626 !important;
+  color: white !important;
+  float: left !important;
+  transition: 1s !important;
+}
+
+.btn-error-color:hover{
+  background: #1AAE8A !important;
+  border: 2px solid #1AAE8A !important;
+}
+
+@media (max-width: 768px){
+  .h1-error{
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .h2-error{
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .error{
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .btn-error-color{
+    float: none !important;
+    display: inline-block !important;
+    align-items: center;
+  }
+}
+
+.error-color{
+  background: linear-gradient(to right top,#11998e, #38ef7d);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#11998e", endColorstr="#38ef7d", GradientType=1);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 #slider{
   padding: 60px 0;
 }

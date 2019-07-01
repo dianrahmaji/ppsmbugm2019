@@ -66,9 +66,9 @@
   }
 
   .btn-error-color{
-    float: none !important;
-    display: inline-block !important;
-    align-items: center;
+    display: flex !important;
+    justify-content: center !important;
+    width: 100%;
   }
 }
 

@@ -32,7 +32,7 @@
 .card__info {
     z-index: 2;
     /* background-image: linear-gradient(to right bottom, #e43096, #d53bac, #bf48c0, #a355d1, #7f61df, #5d7cf1, #3594fb, #00a8ff, #00ccff, #00e8d8, #44fa8d, #e1ff40); */
-    background-image: linear-gradient(to right top,#11998e, #38ef7d);
+    background-image: linear-gradient(to right top, #11998e, #38ef7d);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -40,6 +40,27 @@
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
     padding: 16px 24px 24px 24px;
+}
+
+.card_slider {
+    z-index: 2;
+    /* background-image: linear-gradient(to right bottom, #e43096, #d53bac, #bf48c0, #a355d1, #7f61df, #5d7cf1, #3594fb, #00a8ff, #00ccff, #00e8d8, #44fa8d, #e1ff40); */
+    background-image: linear-gradient(to right top, #11998e, #38ef7d);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 16px 24px 24px 24px;
+}
+
+@media (max-width: 768px) {
+    .card_slider {
+        height: 170px;
+        background-size: 1000px;
+
+    }
 }
 
 .card__title {
@@ -50,11 +71,12 @@
     color: white
 }
 
-@media (max-width: 768px){
-    .card__info{
+@media (max-width: 768px) {
+    .card__info {
         height: 90px;
     }
-    .card__title{
+
+    .card__title {
         font-size: 15px;
     }
 }

@@ -1,7 +1,8 @@
 html,
 body {
-  background: linear-gradient(to bottom, #10418e , #e1dc15 );
-  background: -webkit-linear-gradient(to bottom, #e77e61, #eda460);
+  background: rgb(255, 36, 84);
+  /* background: linear-gradient(to bottom, #10418e , #e1dc15 );
+  background: -webkit-linear-gradient(to bottom, #e77e61, #eda460); */
   background-repeat: no-repeat;
   height: auto;
   width: 100%;

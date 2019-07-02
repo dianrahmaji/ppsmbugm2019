@@ -1,6 +1,6 @@
 $('.slide1').slick({
     infinite: false,
-    slidesToShow: 4,
+    slidesToShow: 2,
     slidesToScroll: 1,
     dots: true,
     responsive: [{

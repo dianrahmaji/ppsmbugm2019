@@ -50,6 +50,15 @@
     color: white
 }
 
+@media (max-width: 768px){
+    .card__info{
+        height: 90px;
+    }
+    .card__title{
+        font-size: 15px;
+    }
+}
+
 .card__no {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif !important;

@@ -8,6 +8,13 @@
   position: relative;
 }
 
+@media (max-width: 1024px) {
+  .img-fluid{
+    width: 100vh;
+    height: auto;
+  }
+}
+
 #error{
   background: url("../img/hero-bg.jpg");
   background-size: cover;

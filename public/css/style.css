@@ -21,10 +21,9 @@
   height: 100vh;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 992px){
   #error {
-    height: 100%;
-    background: #1A1A1A;
+    background: #1c1c1c;
   }
 }
 
@@ -56,7 +55,7 @@
   font-size: 60px;
 }
 
-.error{
+.p-error{
   font-size: 32px;
 }
 
@@ -84,7 +83,7 @@
     text-align: center;
   }
 
-  .error{
+  .p-error{
     font-size: 22px;
     text-align: center;
   }

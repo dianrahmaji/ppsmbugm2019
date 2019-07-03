@@ -21,10 +21,9 @@
   height: 100vh;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 992px){
   #error {
-    height: 100vh;
-    background: #1A1A1A;
+    background: #1c1c1c;
   }
 }
 
@@ -41,10 +40,6 @@
 @media (max-width: 768px) {
   .img-tentang{
     padding: 32px;
-  }
-
-  #error {
-    height: 100vh;
   }
 }
 

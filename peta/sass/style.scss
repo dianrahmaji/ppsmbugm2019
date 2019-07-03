@@ -30,7 +30,7 @@ body {
 
 #sepeda-kampus,
 #kantong-parkir,
-#skkk,
+#skkk,#gmc
 #sekre {
     cursor: pointer;
 }
@@ -44,6 +44,10 @@ body {
 }
 
 #skkk img {
+    width: 10%;
+}
+
+#gmc img{
     width: 10%;
 }
 
@@ -75,6 +79,9 @@ img.skkk {
     display: none;
 }
 
+img.gmc {
+    display: none;
+}
 img.sekre {
     display: none;
 }

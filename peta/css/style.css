@@ -1,7 +1,8 @@
 html,
 body {
-  background: linear-gradient(to bottom, #10418e , #e1dc15 );
-  background: -webkit-linear-gradient(to bottom, #e77e61, #eda460);
+  background: rgb(0, 0, 0);
+  /* background: linear-gradient(to bottom, #10418e , #e1dc15 );
+  background: -webkit-linear-gradient(to bottom, #e77e61, #eda460); */
   background-repeat: no-repeat;
   height: auto;
   width: 100%;
@@ -27,6 +28,7 @@ body {
 
 .berjejer{
   display: inline-block;
+  margin: auto 0;
 }
 
 .title {
@@ -45,8 +47,10 @@ body {
 }
 
 #sepeda-kampus,
+#sepeda-kampus2,
 #kantong-parkir,
 #skkk,
+#gmc,
 #sekre {
   cursor: pointer;
 }
@@ -87,7 +91,15 @@ img.sepeda-kampus {
   display: none;
 }
 
+img.sepeda-kampus2 {
+  display: none;
+}
+
 img.skkk {
+  display: none;
+}
+
+img.gmc{
   display: none;
 }
 

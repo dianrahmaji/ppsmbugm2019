@@ -1,6 +1,6 @@
 html,
 body {
-  background: rgb(255, 36, 84);
+  background: rgb(0, 0, 0);
   /* background: linear-gradient(to bottom, #10418e , #e1dc15 );
   background: -webkit-linear-gradient(to bottom, #e77e61, #eda460); */
   background-repeat: no-repeat;
@@ -28,6 +28,7 @@ body {
 
 .berjejer{
   display: inline-block;
+  margin: auto 0;
 }
 
 .title {

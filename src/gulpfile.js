@@ -3,7 +3,7 @@ const htmlPartial = require('gulp-html-partial');
 var CSS_PATH = '../src/css/**/*.css';
 var JS_PATH = '../src/js/**/*.js';
 var DIST_PATH = '../public';
-var cleancss = require('gulp-clean-css');
+var cleancss = require('gulp-clean-css');;
 var concat = require('gulp-concat');
 
 gulp.task('html', function() {

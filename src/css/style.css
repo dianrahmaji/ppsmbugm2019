@@ -2,7 +2,7 @@
   width: 100%;
   height: auto;
   padding: 60px 0;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("img/hero-bg.jpg") top center;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -37,7 +37,7 @@
 }
 
 #error {
-  background: url("../img/hero-bg.jpg");
+  background: url("img/hero-bg.jpg");
   background-size: cover;
   height: 100vh;
 }

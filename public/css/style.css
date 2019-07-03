@@ -42,6 +42,10 @@
   .img-tentang{
     padding: 32px;
   }
+
+  #error {
+    height: auto;
+  }
 }
 
 .white{
@@ -56,7 +60,7 @@
   font-size: 60px;
 }
 
-.error{
+.p-error{
   font-size: 32px;
 }
 
@@ -84,7 +88,7 @@
     text-align: center;
   }
 
-  .error{
+  .p-error{
     font-size: 22px;
     text-align: center;
   }

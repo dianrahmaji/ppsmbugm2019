@@ -39,7 +39,7 @@
     background-size: cover;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
-    padding: 16px 24px 24px 24px;
+    padding: 24px;
 }
 
 .card_slider {
@@ -52,15 +52,20 @@
     background-size: cover;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
-    padding: 16px 24px 24px 24px;
+    padding: 24px;
 }
 
 @media (max-width: 768px) {
     .card_slider {
-        height: 350px;
+        /* height: 190px; */
         background-size: 2000px;
-
     }
+    /* .card__info{
+        padding: 20px;
+    }
+    .cardz{
+        height: 430px;
+    } */
 }
 
 .card__title {
@@ -72,9 +77,9 @@
 }
 
 @media (max-width: 768px) {
-    .card__info {
+    /* .card__info {
         height: 90px;
-    }
+    } */
 
     .card__title {
         font-size: 15px;

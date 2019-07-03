@@ -57,8 +57,8 @@
 
 @media (max-width: 768px) {
     .card_slider {
-        height: 170px;
-        background-size: 1000px;
+        height: 350px;
+        background-size: 2000px;
 
     }
 }

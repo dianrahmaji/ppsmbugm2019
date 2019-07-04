@@ -131,7 +131,7 @@ jQuery(document).ready(function ($) {
 
 $('.slide1').slick({
     infinite: false,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     dots: true,
     responsive: [{

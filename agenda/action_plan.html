@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
     
     <head>
         <meta http-equiv="Pragma" content="no-cache">
@@ -11,13 +11,10 @@
         <meta name="author" content="Tim IT PPSMB PALAPA 2019">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Favicons -->
-        <link href="public/img/icon.png" rel="icon">
-        <!-- <link href="img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+        <link href="../public/img/icon.png" rel="icon">
+        <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
         <!-- Fontawesome -->
         <script src="https://kit.fontawesome.com/33589fe447.js"></script>
-        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-        crossorigin="anonymous">
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,700,700i|Lato:300,400,500,700"
         rel="stylesheet">
@@ -25,160 +22,77 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-        crossorigin="anonymous"></script>
         <!-- Libraries CSS Files -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.1/animate.min.css"
         rel="stylesheet">
-        <!-- Add the slick-theme.css if you want default styling -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
         <!-- Main Stylesheet File -->
-        <link href="public/all.css" rel="stylesheet">
+        <link href="../public/all.css" rel="stylesheet">
+        <!-- <link href="../public/all.js" rel="stylesheet"> -->
     </head>
     
     <body>
+        <section style="margin-top: 100px" id="breadcrumb">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="../index.html">Beranda</a>
+                        </li>
+                        <li class="breadcrumb-item"><a href="../pilih_hari.html">Pilih Hari</a>
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page"><i>Action Plan</i>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </section>
+        <section style="margin: 24px">
+            <div class="container">
+                 <h3><b>Agenda <i>Action Plan</i></b></h3>
+
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div style="margin-top:42px; margin-bottom:42px" class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="https://docs.google.com/file/d/1CGT7oufkQPUQb7VUpcHXmjIzI1fDwEsO/preview"
+                    allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
         <header id="header" class="header-state" style="background: rgba(52, 59, 64);">
             <div class="container">
-                <div id="logo" class="pull-left"> <a href="index.html"><img src="public/img/logo-navbar.png" alt="" title="" /></img></a>
+                <div id="logo" class="pull-left"> <a href="../index.html"><img src="../public/img/logo-navbar.png" alt="" title="" /></img></a>
 
+                    <!--
+                    <h1><a href="index.html">PPSMB</a></h1> -->
                 </div>
                 <nav id="nav-menu-container">
                     <ul class="nav-menu">
-                        <li><a href="index.html"><b>Beranda</b></a>
+                        <li><a href="../index.html"><b>Beranda</b></a>
 
                         </li>
-                        <li><a href="peta.html"><b>Peta UGM</b></a>
+                        <li><a href="../peta.html"><b>Peta UGM</b></a>
 
                         </li>
                         <li class="menu-has-children"><a href=""><b>Galeri</b></a>
 
                             <ul>
-                                <li><a href="galeri/foto.html"><b>Foto</b></a>
+                                <li><a href="../galeri/foto.html"><b>Foto</b></a>
 
                                 </li>
-                                <li><a href="galeri/video.html"><b>Video</b></a>
+                                <li><a href="../galeri/video.html"><b>Video</b></a>
 
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="faq.html"><b>FAQ</b></a>
+                        <li><a href="../faq.html"><b>FAQ</b></a>
 
                         </li>
                     </ul>
                 </nav>
             </div>
         </header>
-        <section style="margin-top:100px;" id="breadcrumb">
-            <div class="container">
-                <nav aria-label="breadcrumb" style=" background: rgb(243, 209, 209)">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="./index.html">Beranda</a>
-                        </li>
-                        <li class="breadcrumb-item active" aria-current="page">Pilih Hari</li>
-                    </ol>
-                </nav>
-            </div>
-        </section>
-        <section style="margin-top: 40px; margin-bottom: 20px">
-            <div class="container">
-                <div class="section-header">
-                     <h3 class="section-title">Pilih Hari</h3>
-
-                </div>
-            </div>
-        </section>
-        <section id="pilih_hari" style="padding-bottom: 60px">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12"> <a href="./agenda/hari_1.html" style="margin: 25px">
-            <div class="cardz">
-    <!-- <article> -->
-    <div class="card__info" style="background-image: @@gradien">
-         <h3 class="card__title">Hari 1</h3>
- <span style="padding-bottom: 16px" class="card__no">Sabtu, 3 Agustus 2019</span>
-
-    </div>
-</div>
-          </a>
-
-                    </div>
-                    <div class="col-md-6 col-sm-12"> <a href="./agenda/hari_2.html" style="margin: 25px">
-            <div class="cardz">
-    <!-- <article> -->
-    <div class="card__info" style="background-image: @@gradien">
-         <h3 class="card__title">Hari 2</h3>
- <span style="padding-bottom: 16px" class="card__no">Senin, 5 Agustus 2019</span>
-
-    </div>
-</div>
-          </a>
-
-                    </div>
-                    <div class="col-md-6 col-sm-12"> <a href="./agenda/hari_3/pilih_fakultas.html" style="margin: 25px">
-            <div class="cardz">
-    <!-- <article> -->
-    <div class="card__info" style="background-image: linear-gradient(to right top, #2A2A72, #009FFD);">
-         <h3 class="card__title">Hari 3</h3>
- <span style="padding-bottom: 16px" class="card__no">Selasa, 6 Agustus 2019</span>
-
-    </div>
-</div>
-          </a>
-
-                    </div>
-                    <div class="col-md-6 col-sm-12"> <a href="./agenda/hari_4/pilih_fakultas.html" style="margin: 25px">
-            <div class="cardz">
-    <!-- <article> -->
-    <div class="card__info" style="background-image: linear-gradient(to right top, #2A2A72, #009FFD);">
-         <h3 class="card__title">Hari 4</h3>
- <span style="padding-bottom: 16px" class="card__no">Rabu, 7 Agustus 2019</span>
-
-    </div>
-</div>
-          </a>
-
-                    </div>
-                    <div class="col-md-6 col-sm-12"> <a href="./agenda/hari_5.html" style="margin: 25px">
-            <div class="cardz">
-    <!-- <article> -->
-    <div class="card__info" style="background-image: @@gradien">
-         <h3 class="card__title">Hari 5</h3>
- <span style="padding-bottom: 16px" class="card__no">Kamis, 8 Agustus 2019</span>
-
-    </div>
-</div>
-          </a>
-
-                    </div>
-                    <div class="col-md-6 col-sm-12"> <a href="./agenda/hari_6.html" style="margin: 25px">
-            <div class="cardz">
-    <!-- <article> -->
-    <div class="card__info" style="background-image: @@gradien">
-         <h3 class="card__title">Hari 6</h3>
- <span style="padding-bottom: 16px" class="card__no">Jumat, 9 Agustus 2019</span>
-
-    </div>
-</div>
-          </a>
-
-                    </div>
-                    <div class="col-12">
-                        <div style="margin: 0 auto" class="col-md-6 col-sm-12"> <a href="./agenda/action_plan.html" style="margin: 25px">
-              <div class="cardz">
-                  <!-- <article> -->
-                  <div class="card__info" style="background-image: linear-gradient(to right top, #f12711,#f5af19); padding: 35px 24px">
-                    <h3 class="card__title text-center"><i> Action Plan</i></h3>
-                  </div>
-              </div>
-            </a>
-
-                        </div>
-                    </div>
-                </div>
-        </section>
         <footer id="footer">
             <div class="container">
                 <div class="row">
@@ -290,9 +204,8 @@ HELP DESK PPSMB : +62-822-8433-1119 (08.00 - 16.00 WIB)</div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.10.0/jquery.hoverIntent.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/superfish/1.7.10/js/superfish.min.js"></script>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
         <!-- Template Main Javascript File -->
-        <script src="public/all.js"></script>
+        <script src="../public/all.js"></script>
     </body>
 
 </html>

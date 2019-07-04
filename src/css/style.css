@@ -7,6 +7,13 @@
   background-attachment: fixed;
   position: relative;
 }
+
+@media (min-width: 992px){
+  .modal-lg, .modal-xl {
+    max-width: 1000px !important;
+  }
+}
+
 .unduh {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;

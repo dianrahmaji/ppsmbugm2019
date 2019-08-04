@@ -49,7 +49,7 @@
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 3000px;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
     padding: 24px;
@@ -58,7 +58,7 @@
 @media (max-width: 768px) {
     .card_slider {
         /* height: 190px; */
-        background-size: 2000px;
+        background-size: 2000px !important;
     }
     /* .card__info{
         padding: 20px;
